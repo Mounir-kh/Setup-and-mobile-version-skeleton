@@ -16,13 +16,15 @@
     top: 0px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
+
   .logo{
   position: static;
   width: 76px;
   height: 20px;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 10px;
+  margin-left: 12px;
   }
   .menu{
     position: static;
@@ -67,15 +69,14 @@
   .headline_section .rectangle_4{
     position: absolute;
     left: 294px;
-    top: 165.79px;
+    top: 125.79px;
   
   }
   .headline_section .ellipse_3{
     position: absolute;
-    width: 105px;
-    height: 105px;
     left: 323px;
-    top: 152.24px;
+top: 152.24px;
+
   }
 
   .headline_section h1{
@@ -125,7 +126,6 @@
   }
   .headline_section .p2{
     position: static;
-    width: 117px;
     height: 24px;
     left: 0px;
     top: 0px;
@@ -137,11 +137,6 @@
     line-height: 24px;
   
     color: #7F8CFF;
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 8px;
   
   }
   
@@ -180,16 +175,15 @@
   top: 657.1px;
   }
   .social_media{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
+    position: static;
+    width: 170.17px;
+    height: 20px;
     left: 24px;
-    top: 500px;
-    justify-content: center;
-    align-items: center;
+    top: 470px;
+
+    display: flex;
+    justify-content: flex-start;
     gap: 15px;
-    padding: 0;
-  
   }
   
   
