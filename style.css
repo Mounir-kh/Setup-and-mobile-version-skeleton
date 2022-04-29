@@ -2,6 +2,7 @@ body {
   font-family: "3rd party font", serif;
   margin: 20px;
 }
+
 nav {
   height: 92px;
   display: flex;
@@ -9,6 +10,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+/*Log*/
 .logo {
   width: 4.75em;
   height: 1.25em;
@@ -22,6 +24,7 @@ nav {
   display: flex;
   justify-content: center;
 }
+
 main {
   height: 626px;
   display: flex;
@@ -29,6 +32,7 @@ main {
   justify-content: space-between;
   gap: 20px;
 }
+
 .ellipse_11 {
   background-image: url(images/Ellipse_11.svg);
   position: relative;
@@ -92,7 +96,6 @@ main {
   height: 22.02px;
   left: 75%;
   top: 26%;
-
   background: #ebebff;
   transform: rotate(-30deg);
   background-repeat: no-repeat;
@@ -108,7 +111,6 @@ main {
   height: 105px;
   left: 84%;
   top: 28%;
-
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -129,7 +131,6 @@ main {
   order: 0;
   flex-grow: 0;
   margin: 12px 0;
-  display: flex;
 }
 
 .headline_section .p1 {
@@ -161,7 +162,7 @@ main {
   width: 24.14px;
   height: 12.07px;
   left: 82%;
-top: 98%;
+  top: 98%;
   background-repeat: no-repeat;
   display: flex;
 }
@@ -172,7 +173,7 @@ top: 98%;
   width: 30.1px;
   height: 30.1px;
   left: 80%;
-top: 99.99%;
+  top: 99.99%;
   background-repeat: no-repeat;
   display: flex;
 }
@@ -203,7 +204,6 @@ top: 99.99%;
   display: flex;
   justify-content: space-between;
   justify-content: flex-start;
-
   gap: 15px;
 }
 
