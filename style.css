@@ -1,5 +1,5 @@
 body {
-  font-family: "3rd party font", serif;
+  font-family: 'Poppins', sans-serif;
   margin: 20px;
 }
 
@@ -162,7 +162,7 @@ main {
   width: 24.14px;
   height: 12.07px;
   left: 82%;
-  top: 98%;
+  top: 104%;
   background-repeat: no-repeat;
   display: flex;
 }
@@ -173,7 +173,7 @@ main {
   width: 30.1px;
   height: 30.1px;
   left: 80%;
-  top: 99.99%;
+  top: 106%;
   background-repeat: no-repeat;
   display: flex;
 }
@@ -184,20 +184,21 @@ main {
   width: 68.06px;
   height: 12.18px;
   left: 191.82px;
-  top: 667px;
+  top: 120%;
   background-repeat: no-repeat;
   display: flex;
   background-color: #ebebff;
   transform: rotate(23.34deg);
 }
 
+/* Inserting images styles*/
 .ellipse_4 {
   background-image: url(images/Ellipse\ 4.svg);
   position: absolute;
   width: 20px;
   height: 20px;
   left: 237px;
-  top: 657.1px;
+  top: 118%;
   background-repeat: no-repeat;
   display: flex;
 }
