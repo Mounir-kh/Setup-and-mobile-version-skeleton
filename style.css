@@ -1,0 +1,228 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px;
+}
+
+nav {
+  height: 92px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 4.75em;
+  height: 1.25em;
+  display: flex;
+}
+
+.menu {
+  position: relative;
+  width: 2.5em;
+  height: 2.5em;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  height: 626px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.ellipse_11 {
+  background-image: url(images/Ellipse_11.svg);
+  position: relative;
+  left: -8%;
+  width: 50px;
+  height: 125px;
+  font-size: 3rem;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rectangle_6 {
+  background-image: url(images/Rectangle_6.svg);
+  position: relative;
+  width: 51.99px;
+  height: 9.3px;
+  left: -20%;
+  top: -23%;
+  background-color: #ebebff;
+  transform: rotate(-46.14deg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ellipse_5 {
+  background-image: url(images/Ellipse_5.svg);
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  left: 39%;
+  top: 26%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rectangle_7 {
+  background-image: url(images/Rectangle_7.svg);
+  position: absolute;
+  width: 26.46px;
+  height: 4.73px;
+  left: 37%;
+  top: 25.2%;
+  background-color: #6070ff;
+  transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rectangle_4 {
+  background-image: url(images/rectangle_4);
+  position: absolute;
+  width: 95.58px;
+  height: 22.02px;
+  left: 75%;
+  top: 26%;
+  background-color: #ebebff;
+  transform: rotate(-30deg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ellipse_3 {
+  background-image: url(images/Ellipse_3.svg);
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 84%;
+  top: 28%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headline_section h1 {
+  top: 114px;
+  left: 24px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.headline_section .p1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0;
+  display: flex;
+}
+
+.headline_section .p2 {
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  display: flex;
+}
+
+.ellipse_12 {
+  background-image: url(images/Ellipse\ 12.svg);
+  position: absolute;
+  width: 24.14px;
+  height: 12.07px;
+  left: 82%;
+  top: 104%;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.ellipse_13 {
+  background-image: url(images/Ellipse\ 13.svg);
+  position: absolute;
+  width: 30.1px;
+  height: 30.1px;
+  left: 80%;
+  top: 106%;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.rectangle_5 {
+  background-image: url(images/Rectangle_5.png);
+  position: absolute;
+  width: 68.06px;
+  height: 12.18px;
+  left: 191.82px;
+  top: 120%;
+  background-repeat: no-repeat;
+  display: flex;
+  background-color: #ebebff;
+  transform: rotate(23.34deg);
+}
+
+/* Inserting images styles*/
+.ellipse_4 {
+  background-image: url(images/Ellipse\ 4.svg);
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 237px;
+  top: 118%;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.social_media {
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+/*
+  background-image: url(img/Ellp2.png);
+  position: absolute;
+  width: 50px;
+  height: 600px;
+  font-size: 3rem;
+  left: 323px;
+  top: 150.24px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; */
