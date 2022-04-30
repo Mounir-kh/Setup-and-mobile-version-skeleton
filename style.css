@@ -180,11 +180,11 @@ main {
 
 .rectangle_5 {
   background-image: url(images/Rectangle_5.png);
-  position: absolute;
+  position: relative;
   width: 68.06px;
   height: 12.18px;
   left: 191.82px;
-  top: 120%;
+  top:  24%;
   background-repeat: no-repeat;
   display: flex;
   background-color: #ebebff;
@@ -192,20 +192,23 @@ main {
 }
 .ellipse_4 {
   background-image: url(images/Ellipse\ 4.svg);
-  position: absolute;
+  position: relative;
   width: 20px;
   height: 20px;
   left: 237px;
-  top: 118%;
+  top: 20%;
   background-repeat: no-repeat;
   display: flex;
 }
 
 .social_media {
   display: flex;
-  justify-content: space-between;
   justify-content: flex-start;
   gap: 15px;
+  position: relative;
+  left: -14%;
+  align-items: center;
+  top: -6%;
 }
 
 ul li {
